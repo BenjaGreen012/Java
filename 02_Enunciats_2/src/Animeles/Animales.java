@@ -22,4 +22,7 @@ public class Animales{
     public void setModalidadDeReproducion(String modalidadDeReproducionRebuda){
         this.modalidadDeReproducion=modalidadDeReproducionRebuda;
     }
+    public String toString(){
+        return this.getEspecie()+" "+this.getModalitat();
+    }
 }

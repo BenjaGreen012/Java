@@ -21,6 +21,6 @@ public class Perro extends Animales{
         this.nomAnimal=nomRebut;
     }
     public String toString(){
-        return this.nomAnimal+" "+this.numeroDePatas+" "+this.getEspecie()+" "+this.getModalitat();
+        return this.nomAnimal+" "+this.numeroDePatas+" "+super.toString();
     }
 }

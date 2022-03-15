@@ -13,6 +13,6 @@ public class Gato extends Animales {
         this.nomDelAnimal=nomRebut;
     }
     public String toString(){
-        return this.nomDelAnimal+" "+this.getEspecie()+" "+this.getModalitat();
+        return this.nomDelAnimal+" "+super.toString();
     }
 }
