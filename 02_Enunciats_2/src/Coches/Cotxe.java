@@ -53,7 +53,7 @@ public class Cotxe {
 
     public void matrucular() {
 
-        char[] array = { 'B', 'C','D', 'F', 'G', 'H', 'J', 'K', 'L','M', 'N', 'P', 'R', 'S', 'T', 'V','W', 'X', 'Y', 'Z' };
+        char[] array = { 'B', 'C','D', 'F', 'G', 'H', 'J', 'K', 'L','M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V','W', 'X', 'Y', 'Z' };
         String matriculaGenerada = "";
         for (int i = 0; i < 7; i++) {
             Random rnd = new Random();
